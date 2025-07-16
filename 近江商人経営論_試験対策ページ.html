@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>近江商人経営論 試験対策ページ</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', 'Arial', 'Hiragino Sans', 'Meiryo', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            color: #0056b3;
+        }
+        .question-container {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .question-container p {
+            margin: 0 0 10px 0;
+        }
+        .reference {
+            font-size: 0.9em;
+            color: #666;
+            text-align: right;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .answer {
+            background-color: #e9f7ff;
+            border: 1px solid #bce8f1;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>近江商人経営論 試験対策ページ</h1>
+    <p>各問題の「解答を表示」ボタンをクリックすると、解答・解説・参考資料が表示されます。もう一度クリックすると非表示になります。</p>
+
+    <h2>Ⅰ．穴埋め式問題</h2>
+
+    <div class="question-container">
+        <p><strong>問題1:</strong> 近江商人の経営哲学として広く知られ、売り手と買い手がともに満足し、さらに社会貢献にもつながる商売が良い商売であるとする考え方を「（　①　）よし、買手よし、世間よし」という。この理念は、後世に経営史研究者である（　②　）によって「（　③　）」と命名された。</p>
+        <p class="reference">(参考: 資料⑨)</p>
+        <button onclick="toggleAnswer('answer1')">解答を表示</button>
+        <div id="answer1" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①売手（うりて） ②小倉榮一郎（おぐらえいいちろう） ③三方（さんぽう）よし</p>
+            <p><strong>【解説】</strong> 「三方よし」は近江商人を象徴する経営理念ですが、この言葉自体は江戸時代の史料には見られず、昭和後期に近江商人研究者の小倉榮一郎氏によって提唱されたものです。しかし、その精神は多くの近江商人の家訓や行動に見て取ることができます。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題2:</strong> 江戸時代の商家で広く用いられた、現代の売掛金元帳にあたる帳簿を（　①　）と呼ぶ。また、日本固有の複式簿記の原型ともいえる記帳法を（　②　）という。</p>
+        <p class="reference">(参考: 資料③, ⑥, ⑨)</p>
+        <button onclick="toggleAnswer('answer2')">解答を表示</button>
+        <div id="answer2" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①大福帳（だいふくちょう） ②和式帳合（わしきちょうあい）</p>
+            <p><strong>【解説】</strong> 江戸時代の商家は、独自の方法で高度な会計管理を行っていました。大福帳は得意先ごとの掛売り状況を記録する重要な帳簿でした。和式帳合は、特に中井家などで見られる精巧な会計システムで、複数の帳簿を体系的に用いていました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題3:</strong> 近江商人は、京や大坂などの上方の商品を地方へ運ぶ「（　①　）」と、逆に地方の産物を上方へ運ぶ「（　②　）」という二つの流通を担うことで、全国的な物流ネットワークを支えた。</p>
+        <p class="reference">(参考: 資料④)</p>
+        <button onclick="toggleAnswer('answer3')">解答を表示</button>
+        <div id="answer3" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①持ち下り荷（もちくだりに） ②登せ荷（のぼせに）</p>
+            <p><strong>【解説】</strong> 「持ち下り荷」には呉服、薬、麻布などの加工品が多く、「登せ荷」には紅花、生糸、青苧（あおそ）などの原材料が多いという特徴がありました。この「産物廻し」によって、近江商人は各地の特産品を全国に流通させました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題4:</strong> 蝦夷地（現在の北海道）との交易独占権を持っていた（　①　）藩と深く結びつき、現地のアイヌとの交易や漁業の経営を請け負う「（　②　）制度」を通じて大きな利益を上げた。</p>
+        <p class="reference">(参考: 資料⑥)</p>
+        <button onclick="toggleAnswer('answer4')">解答を表示</button>
+        <div id="answer4" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①松前（まつまえ） ②場所請負（ばしょうけおい）</p>
+            <p><strong>【解説】</strong> 場所請負制度は、松前藩の藩士に与えられた知行地（商場）での交易権を、近江商人などの商人が手数料（運上金）を払って請け負う制度です。商人は交易だけでなく、漁場の開発や漁業技術の改良も行いました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題5:</strong> 事業拡大やリスク分散のために用いた、複数の商人が共同で出資して事業を行う経営形態を（　①　）という。また、長年勤め上げた奉公人に独立を許す制度を「（　②　）」といい、人材育成と一門の結束強化に繋がった。</p>
+        <p class="reference">(参考: 資料③, ⑤, ⑧)</p>
+        <button onclick="toggleAnswer('answer5')">解答を表示</button>
+        <div id="answer5" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①乗合商い（のりあいあきない） ②暖簾分け（のれんわけ）</p>
+            <p><strong>【解説】</strong> 「乗合商い」は大規模な事業や多店舗展開を可能にする合理的なシステムでした。一方、「暖簾分け」は奉公人にとって最高の目標であり、この制度があることで優秀な人材が忠実に、そして意欲的に働く誘因となりました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題6:</strong> 初代中井源左衛門光武が関東地方で（　①　）の行商を始めたことが、中井家の事業の出発点となった。彼は子孫のために「（　②　）」という家訓を書き残した。</p>
+        <p class="reference">(参考: 資料③, ⑨)</p>
+        <button onclick="toggleAnswer('answer6')">解答を表示</button>
+        <div id="answer6" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①合薬（あわせぐすり） ②金持商人一枚起請文（かねもちあきんどいちまいきしょうもん）</p>
+            <p><strong>【解説】</strong> 中井源左衛門光武は、享保19(1734)年に関東で行商を開始しました。彼が残した「金持商人一枚起請文」には、商人が富を築くための心構えとして、勤勉、倹約、そして陰徳善事が説かれています。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題7:</strong> 近江商人の分類のうち、現在の高島市出身者を中心とする商人たちを（　①　）商人と呼び、八幡堀で知られる現在の近江八幡市出身の商人たちを（　②　）商人と呼ぶ。</p>
+        <p class="reference">(参考: 資料④)</p>
+        <button onclick="toggleAnswer('answer7')">解答を表示</button>
+        <div id="answer7" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①高島（たかしま） ②八幡（はちまん）</p>
+            <p><strong>【解説】</strong> 近江商人は出身地によっていくつかのグループに分類されます。高島商人は小野組に代表され、八幡商人は西川甚五郎家などが有名です。この他、日野商人や湖東商人がいます。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題8:</strong> 奉公人が数年に一度、故郷の近江へ帰ることを認める休暇制度を（　①　）という。これは奉公人の勤労意欲を維持するための重要な福利厚生制度であった。</p>
+        <p class="reference">(参考: 資料⑤)</p>
+        <button onclick="toggleAnswer('answer8')">解答を表示</button>
+        <div id="answer8" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①在所登り制度（ありしょのぼりせいど）</p>
+            <p><strong>【解説】</strong> 入店後5年前後で「初登り」、その2～3年後に「中登り」と続き、勤続年数に応じて許可されました。「毎年登り」が許されると結婚もできるなど、奉公人の人生設計と密接に結びついていました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題9:</strong> 天保の飢饉の際、中井源左衛門家の仙台店は窮民救済のために750両と米350俵を施し、さらに（　①　）の引札を配布した。</p>
+        <p class="reference">(参考: 資料⑤)</p>
+        <button onclick="toggleAnswer('answer9')">解答を表示</button>
+        <div id="answer9" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①流行病治療（りゅうこうびょうちりょう）</p>
+            <p><strong>【解説】</strong> これは近江商人が実践した「陰徳善事」の代表的な事例です。単に金品を施すだけでなく、病気の治療という形で人々の命を直接救おうとした点に、彼らの社会貢献の精神が表れています。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題10:</strong> 塚本定右衛門家は、2代目定次と初代粂右衛門正之兄弟が「（　①　）」をモットーに、明治期に滋賀県内の（　②　）事業に私財を投じたことで知られる。</p>
+        <p class="reference">(参考: 資料⑤)</p>
+        <button onclick="toggleAnswer('answer10')">解答を表示</button>
+        <div id="answer10" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①瀬田広瀬（せたひろせ） ②治山治水（ちさんちすい）</p>
+            <p><strong>【解説】</strong> 瀬田川の氾濫を防ぐための治水事業に、県と塚本家が2対1の割合で費用を負担しました。これも「陰徳善事」の一環であり、地域のインフラ整備に貢献することで、長期的な社会の安定と発展に寄与しようとしました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題11:</strong> 江戸時代の貨幣制度は金・銀・銭の三貨が並立する複雑なものであったが、1842年の御定相場では、金1両＝銀（　①　）匁＝銭（　②　）文と公定された。</p>
+        <p class="reference">(参考: 資料②)</p>
+        <button onclick="toggleAnswer('answer11')">解答を表示</button>
+        <div id="answer11" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①60（ろくじゅう） ②6貫500（ろっかんごひゃく）</p>
+            <p><strong>【解説】</strong> この公定相場はありましたが、実際の交換レートは日々変動しており、近江商人たちはその変動を見越して商売を行う必要がありました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題12:</strong> 鴻池善右衛門家や泉屋住友家は（　①　）で活躍した豪商の代表格である。鴻池家は（　②　）や大名貸、住友家は（　③　）経営で巨大な富を築いた。</p>
+        <p class="reference">(参考: 資料②)</p>
+        <button onclick="toggleAnswer('answer12')">解答を表示</button>
+        <div id="answer12" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①大坂（おおさか） ②両替商（りょうがえしょう） ③銅山（どうざん）</p>
+            <p><strong>【解説】</strong> 大坂は「天下の台所」と呼ばれ、全国の物資と金融の中心地でした。鴻池家は金融業で、住友家は別子銅山の経営で、それぞれ日本の経済に大きな影響力を持つ豪商へと成長しました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題13:</strong> 多くの商家では、事業の継承と存続を目的として「（　①　）」や「（　②　）」が制定され、家産の維持や奉公人の労務管理などが規定された。</p>
+        <p class="reference">(参考: 資料③)</p>
+        <button onclick="toggleAnswer('answer13')">解答を表示</button>
+        <div id="answer13" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①家法（かほう） ②家訓（かくん）</p>
+            <p><strong>【解説】</strong> これらは現代でいうところの社則や経営理念にあたります。事業を長期的に継続させるために、経営のルールや創業者の精神を明文化し、代々受け継いでいくことが重要視されていました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題14:</strong> 八幡商人の特徴的な商品として、畳表である「（　①　）」や「（　②　）」が挙げられる。</p>
+        <p class="reference">(参考: 資料④)</p>
+        <button onclick="toggleAnswer('answer14')">解答を表示</button>
+        <div id="answer14" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①八幡表（はちまんおもて） ②蚊帳（かや）</p>
+            <p><strong>【解説】</strong> 八幡表は高品質な畳表として全国的に有名でした。また、蚊帳も夏の必需品として広く販売され、八幡商人の主力商品となりました。西川甚五郎家は蚊帳で特に有名です。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題15:</strong> 日野商人は創業時に（　①　）や日野椀を扱ったが、後に呉服や木綿などを主力商品とするようになった。</p>
+        <p class="reference">(参考: 資料④)</p>
+        <button onclick="toggleAnswer('answer15')">解答を表示</button>
+        <div id="answer15" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①日野売薬（ひのばいやく）</p>
+            <p><strong>【解説】</strong> 日野商人は中山道を通じて主に関東地方へ進出しました。当初は薬売りとして始まりましたが、商圏が固まると出店を構え、より利益の大きい呉服などを扱うようになりました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題16:</strong> 近江商人は、競争を避けて互いの権益を守るため、「（　①　）」と呼ばれる同業者団体を結成した。日野商人たちの定宿組合である「（　②　）」もその一例である。</p>
+        <p class="reference">(参考: 資料⑤)</p>
+        <button onclick="toggleAnswer('answer16')">解答を表示</button>
+        <div id="answer16" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①商人団体（しょうにんだんたい） ②日野大当番仲間（ひのおおとうばんなかま）</p>
+            <p><strong>【解説】</strong> 商人団体は、情報交換、共同での仕入れや価格交渉、幕府や藩との交渉など、個々の商人では対応が難しい問題に対処するために組織されました。相互扶助の精神が根底にありました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題17:</strong> 1789年の（　①　）の蜂起をきっかけに、幕府は蝦夷地の直接支配に乗り出し、場所請負制度を廃止したため、両浜商人をはじめとする近江商人は大きな打撃を受けた。</p>
+        <p class="reference">(参考: 資料⑦)</p>
+        <button onclick="toggleAnswer('answer17')">解答を表示</button>
+        <div id="answer17" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①クナシリ・メナシ</p>
+            <p><strong>【解説】</strong> アイヌの人々が和人の支配に対して起こしたこの蜂起は、松前藩の支配体制の脆弱さを露呈させました。ロシアの南下を警戒していた幕府は、これを機に蝦夷地を直接統治する政策に転換しました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題18:</strong> 初代伊藤忠兵衛は、安政5(1858)年に（　①　）類の持下り商いから事業を開始した。明治期には店の利益を3分割する「（　②　）」という独自の利益配分制度を導入した。</p>
+        <p class="reference">(参考: 資料⑧)</p>
+        <button onclick="toggleAnswer('answer18')">解答を表示</button>
+        <div id="answer18" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①近江麻布（おうみあさふ） ②三ツ割制度（みつわりせいど）</p>
+            <p><strong>【解説】</strong> 伊藤忠兵衛は、現代の総合商社である伊藤忠商事と丸紅の創業者です。三ツ割制度は、店の利益を「本家納め」「店積み立て」「店員配当」に均等に分けるもので、店員の勤労意欲を高める画期的な仕組みでした。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題19:</strong> 西川甚五郎家の家訓には、品質を吟味した商品を（　①　）で売ることが示されており、状況に応じて（　②　）を貪ることを禁じている。</p>
+        <p class="reference">(参考: 資料⑨)</p>
+        <button onclick="toggleAnswer('answer19')">解答を表示</button>
+        <div id="answer19" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①潔い口銭（いさぎよいこうせん） ②薄利（はくり）</p>
+            <p><strong>【解説】</strong> 「潔い口銭」とは適正な利益を意味します。不当に高い利益を得るのではなく、正直な商売を心掛けるべきだと説いています。しかし、状況によっては安売り（薄利）で儲けることも否定しておらず、柔軟な商売観がうかがえます。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題20:</strong> 4代目矢尾喜兵衛が著した「（　①　）」には、彼が傾倒した（　②　）心学の影響が色濃く見られる。</p>
+        <p class="reference">(参考: 資料⑨)</p>
+        <button onclick="toggleAnswer('answer20')">解答を表示</button>
+        <div id="answer20" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①商主心法 道中独問答 寝言（しょうしゅしんぽう どうちゅうひとりもんどう ねごと） ②石門（せきもん）</p>
+            <p><strong>【解説】</strong> 石門心学は、江戸時代中期に石田梅岩が始めた庶民向けの道徳哲学です。正直、倹約、勤勉などを説き、商業活動を肯定的に捉えたため、多くの商人たちに受け入れられました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題21:</strong> 中世の近江商人の初見史料は（　①　）年のものであり、当時は（　②　）を組んで行商を行っていた。</p>
+        <p class="reference">(参考: 資料⑩)</p>
+        <button onclick="toggleAnswer('answer21')">解答を表示</button>
+        <div id="answer21" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①文応元(1260)（ぶんおうがん） ②隊商（たいしょう）</p>
+            <p><strong>【解説】</strong> 中世の行商は盗賊などの危険が伴ったため、商人たちが集団で移動する隊商（キャラバン）の形態をとることが一般的でした。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題22:</strong> 近江八幡出身の（　①　）は、近世初頭に（　②　）貿易に従事したことで知られる。</p>
+        <p class="reference">(参考: 資料⑩)</p>
+        <button onclick="toggleAnswer('answer22')">解答を表示</button>
+        <div id="answer22" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①西村太郎右衛門（にしむらたろうえもん） ②朱印船（しゅいんせん）</p>
+            <p><strong>【解説】</strong> 朱印船貿易は、徳川幕府から朱印状という渡航許可証を得て行われた東南アジアとの貿易です。近江商人の活動が、国内だけでなく海外にまで及んでいたことを示す事例です。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題23:</strong> 仙台藩の儒者であった（　①　）が藩主に提出した上申書は、藩の支配層が領内に進出してきた近江商人をどのように見ていたかを知るための貴重な史料である。</p>
+        <p class="reference">(参考: 資料⑩)</p>
+        <button onclick="toggleAnswer('answer23')">解答を表示</button>
+        <div id="answer23" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①芦東山（あしとうざん）</p>
+            <p><strong>【解説】</strong> この上申書では、近江商人が藩の経済に深く浸透している実態が報告されており、藩の側が彼らの活動を警戒しつつも、その経済力に頼らざるを得ない状況がうかがえます。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題24:</strong> 市田弥一郎は、15歳の頃、藩主井伊家のための（　①　）の入札において、機転を利かせて他店に先んじて見本を提出し、落札に成功したことで評判と信用を得た。</p>
+        <p class="reference">(参考: 資料⑪)</p>
+        <button onclick="toggleAnswer('answer24')">解答を表示</button>
+        <div id="answer24" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①跡地用の絹地（あとちようのきぬじ）</p>
+            <p><strong>【解説】</strong> 他店のものが長浜産の見物に誘われたのを断り、深夜の雪道をもどって翌朝一番に見本を提出したという逸話です。商機を逃さない鋭い判断力と誠実な行動が成功につながった例です。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題25:</strong> 初代高田善右衛門は、17歳の時に父から元手金（　①　）を与えられ、独立行商を開始した。彼は（　②　）・灯心を仕入れて紀州で行商することから始め、後に東国へ進出して資産を築いた。</p>
+        <p class="reference">(参考: 資料⑪)</p>
+        <button onclick="toggleAnswer('answer25')">解答を表示</button>
+        <div id="answer25" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①5両（ごりょう） ②蝋燭（ろうそく）</p>
+            <p><strong>【解説】</strong> わずかな元手から身を起こし、苦労を重ねて大商人へと成長していく、近江商人の立志伝中の人物の一人です。その苦労話は、大正時代の修身の教科書にも掲載されました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題26:</strong> 丁子屋小林吟右衛門家は、京都の本両替商であった（　①　）の倒産により、最高額で14万両余りという甚大な被害を受けた。</p>
+        <p class="reference">(参考: 資料⑪)</p>
+        <button onclick="toggleAnswer('answer26')">解答を表示</button>
+        <div id="answer26" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①伊勢屋甚兵衛（いせやじんべえ）</p>
+            <p><strong>【解説】</strong> このような大きな危機に際しても、2代目吟右衛門は冷静に対処しました。取り付け騒ぎが起きないよう、支払いの準備を万全に整え、「大事件に遭遇しても後始末をきちんとすれば、世間の好印象を得て、やがて回復は可能である」と店員を諭しました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題27:</strong> 奥井万吉は、1年間で奥州へ2度、木綿仕入れのため出雲・伯耆へも赴き、合計（　①　）里を歩いたと述懐している。しかし彼は子孫に対し、自身の苦労話に拘らず、（　②　）などの新しい技術の進歩を見据えて西洋に劣らない工夫をすべきだと説いた。</p>
+        <p class="reference">(参考: 資料⑪)</p>
+        <button onclick="toggleAnswer('answer27')">解答を表示</button>
+        <div id="answer27" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①1,000（せん） ②汽船・鉄道・電話・電信（きせん・てつどう・でんわ・でんしん）</p>
+            <p><strong>【解説】</strong> 自身の成功体験に固執せず、時代の変化に柔軟に対応しようとする、近江商人の進取の気性を示す逸話です。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題28:</strong> 江戸時代中期以降、農村でも商品経済が発展し、庶民の需要が増大したことで、大坂の堂島米市場を中心とする（　①　）市場は次第に変容・解体へと向かった。</p>
+        <p class="reference">(参考: 資料①)</p>
+        <button onclick="toggleAnswer('answer28')">解答を表示</button>
+        <div id="answer28" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①幕藩制的（ばくはんてき）</p>
+            <p><strong>【解説】</strong> 幕藩制的市場とは、領主（藩）の年貢米の流通を基軸として成立していた市場のことです。しかし、農民が自ら商品を生産・販売するようになると、領主中心の経済構造が揺らぎ始めました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題29:</strong> 琵琶湖の湖上水運は、北国からの物資を大津へ、そして京都・大坂へと運ぶ重要なルートだったが、寛文12(1672)年に（　①　）が（　②　）航路を整備したことで大きな影響を受けた。</p>
+        <p class="reference">(参考: 資料①)</p>
+        <button onclick="toggleAnswer('answer29')">解答を表示</button>
+        <div id="answer29" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①河村瑞賢（かわむらずいけん） ②西廻り（にしまわり）</p>
+            <p><strong>【解説】</strong> 西廻り航路は、東北や北陸の産物を、日本海から下関を回って瀬戸内海経由で直接大坂へ運ぶルートです。これにより、従来の内陸ルートであった琵琶湖水運の重要性が相対的に低下しました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題30:</strong> 中井家の決算報告書である「（　①　）」は、毎年1冊に綴られて本家へ送付された。この報告書は、店の財産状況を示す「惣勘定之部」と、損益状況を示す「（　②　）之部」などから構成されていた。</p>
+        <p class="reference">(参考: 資料⑦, ⑬)</p>
+        <button onclick="toggleAnswer('answer30')">解答を表示</button>
+        <div id="answer30" class="answer" style="display:none;">
+            <p><strong>【解答】</strong> ①店卸目録（たなおろしもくろく） ②損徳（そんとく）</p>
+            <p><strong>【解説】</strong> これは現代の財務諸表（貸借対照表や損益計算書）にあたるものです。近江商人が、近代的な会計学が導入される以前から、極めて高度な経営管理手法を確立していたことを示しています。</p>
+        </div>
+    </div>
+
+    <h2>Ⅱ．記述式問題</h2>
+
+    <div class="question-container">
+        <p><strong>問題1:</strong> 近江商人が実践した「陰徳善事（いんとくぜんじ）」について、その具体的な活動例を2つ以上挙げ、なぜ彼らがそのような活動に熱心だったのか、その背景にある思想や目的を説明しなさい。</p>
+        <p class="reference">(参考: 資料⑤, ⑨)</p>
+        <button onclick="toggleAnswer('desc_answer1')">解答を表示</button>
+        <div id="desc_answer1" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong></p>
+            <ul>
+                <li><strong>具体例:</strong> 天保の飢饉における施米や窮民救済（矢尾家、中井家）、橋や道路の建設・補修といった公共事業への寄付（中井家）、新田開発や治水事業（塚本家、外池家）など。</li>
+                <li><strong>背景と思想:</strong>
+                    <ul>
+                        <li><strong>経営思想:</strong> 「世間様のおかげ」という考えに基づき、社会の安定と発展が自らの商売の持続可能性につながるという合理的な判断。</li>
+                        <li><strong>宗教観:</strong> 浄土真宗の信仰に根差す「積善積徳」の思想。人事を尽くした上で、陰徳を積むことで人知を超えた「運」を呼び込もうとする考え方（中井源左衛門「金持商人一枚起請文」）。</li>
+                        <li><strong>信用創造:</strong> 社会貢献活動を通じて地域社会からの「信用」という無形の財産を築き、商売を有利に進める目的。</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>【解説】</strong> 近江商人の社会貢献活動は、単なる慈善ではなく、彼らの経営哲学と深く結びついた合理的な活動でした。根底には、商売は社会があってこそ成り立つという思想があり、社会への利益還元は、自らの事業の長期的な安定と発展のための「投資」と捉えられていました。また、熱心な信仰心も大きな動機であり、善行を積むことが商売の成功に不可欠だと考えられていました。これらの活動が「あの店は良いことをしている」という社会的な信用を生み、全国で商売を展開する上での大きな力となったのです。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題2:</strong> 近江商人の奉公人制度は、どのようにして優秀な人材を確保・育成し、店の長期的な発展に貢献したと考えられますか。「在所登り制度」と「暖簾分け」の二つの制度の役割に触れながら説明しなさい。</p>
+        <p class="reference">(参考: 資料③, ⑤, ⑧)</p>
+        <button onclick="toggleAnswer('desc_answer2')">解答を表示</button>
+        <div id="desc_answer2" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong></p>
+            <ul>
+                <li><strong>在所登り制度:</strong> 数年に一度、故郷への帰省を認める長期休暇制度。奉公人の労働意欲の維持と、長期勤続を促すインセンティブとして機能した。勤続年数に応じて「初登り」「中登り」と段階的に与えられ、結婚の許可とも連動していた。</li>
+                <li><strong>暖簾分け:</strong> 長年忠実に勤め、能力を認められた奉公人が、主家から資本や屋号の使用許可を得て独立する制度。奉公人にとって最高の目標であり、明確なキャリアパスを示すことで、忠誠心と能力を最大限に引き出した。</li>
+                <li><strong>制度の意義:</strong> 奉公人を単なる労働力ではなく、店の将来を担うパートナーとして育成する思想。厳しさの中にも明確な目標と報酬（休暇や独立）を示すことで、組織全体の活力を生み出した。</li>
+            </ul>
+            <p><strong>【解説】</strong> 近江商人の強さの源泉は、丁稚・手代といった奉公人を大切に育て、組織力に変える優れた人材マネジメントにありました。「在所登り制度」は、他国で働く奉公人にとって大きな楽しみであり、勤続へのモチベーションを維持させる巧みな福利厚生制度でした。そして、奉公人にとって最大の目標が「暖簾分け」です。この二つの制度は、奉公人の忠誠心を確保すると同時に、店の経営を担う次世代の経営者を育成する仕組みでもあり、近江商人の持続的な発展を支える重要な基盤となっていたのです。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題3:</strong> 中井家の会計システム（和式帳合）は、どのような点で優れていたと言えますか。その特徴と、経営に与えた影響を説明しなさい。</p>
+        <p class="reference">(参考: 資料③, ⑥, ⑦, ⑬)</p>
+        <button onclick="toggleAnswer('desc_answer3')">解答を表示</button>
+        <div id="desc_answer3" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong></p>
+            <ul>
+                <li><strong>特徴:</strong>
+                    <ul>
+                        <li><strong>多帳簿制:</strong> 金銀出入帳、売立帳、仕入帳など取引内容に応じた複数の帳簿で日常取引を記録し、それらを大福帳（総勘定元帳）に集約する体系的な構造。</li>
+                        <li><strong>複式決算:</strong> 決算（店卸）の際に、財産法（資産-負債=純資産）と損益法（収益-費用=利益）の二つの方法で利益を算出し、照合することで正確性を期した点。</li>
+                        <li><strong>支店管理:</strong> 各支店に「店卸目録」の作成を義務付け、本家がそれを査閲することで、遠隔地の支店の経営状況を正確に把握・管理した点。</li>
+                    </ul>
+                </li>
+                <li><strong>経営への影響:</strong>
+                    <ul>
+                        <li>経営状況の正確な把握が可能になり、的確な経営判断を下すことができた。</li>
+                        <li>全国に多店舗を展開する大規模経営を支える基盤となった。</li>
+                        <li>不正の防止や、経営の透明性の確保に繋がった。</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>【解説】</strong> 中井家の会計システムは、近代会計学の知識なしに、実務の中から独自に生み出された極めて精緻なものでした。その最大の特徴は、複数の帳簿を体系的に連携させ、決算時には二つの異なるアプローチで利益を計算・検証する「多帳簿制複決算構造」にあります。これにより、経営者は自店の財産状況と損益状況を正確に把握できました。この優れた会計システムがあったからこそ、中井家は全国に多くの支店を持つ広域経営を成功させることができたのです。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題4:</strong> 近江商人は、なぜ蝦夷地（松前藩）との交易に積極的に進出したのでしょうか。その理由と、彼らがどのようにして交易の主導権を握っていったのかを説明しなさい。</p>
+        <p class="reference">(参考: 資料⑥, ⑦)</p>
+        <button onclick="toggleAnswer('desc_answer4')">解答を表示</button>
+        <div id="desc_answer4" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong></p>
+            <ul>
+                <li><strong>進出した理由:</strong>
+                    <ul>
+                        <li>蝦夷地の海産物（特に〆粕などの肥料）が、商品作物の栽培が盛んになった上方で高い需要があったこと。</li>
+                        <li>松前藩がアイヌとの交易を独占しており、藩と結びつくことで大きな利益が期待できたこと。</li>
+                    </ul>
+                </li>
+                <li><strong>主導権を握る過程:</strong>
+                    <ul>
+                        <li><strong>場所請負制度の活用:</strong> 藩士の交易権を請け負い、安定した交易の権利を確保した。</li>
+                        <li><strong>金融力:</strong> 松前藩への御用金の貸付や、漁民への資金（漁具や船など）の前貸しを通じて、藩や生産者に対する影響力を強めた。</li>
+                        <li><strong>物流ネットワーク:</strong> 蝦夷の産物を上方に運び、帰りの船で米や日用品を蝦夷に運ぶという効率的な物流網を構築した（荷所船仲間との連携）。</li>
+                        <li><strong>漁場経営への参画:</strong> 単なる交易にとどまらず、漁法の改良や加工技術の導入など、生産そのものにも深く関与していった。</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>【解説】</strong> 近江商人が蝦夷地に進出したのは、当時、全国的に高まっていた肥料（〆粕など）の需要に応えるためでした。蝦夷地は、その宝庫だったのです。彼らは、松前藩が独占する交易権に「場所請負制度」を通じて食い込みました。そして、藩への資金援助（大名貸）や、漁民への金融支配をてこに、徐々に影響力を拡大。単に商品を売買するだけでなく、自ら船を出し、漁場の経営にまで乗り出すことで、生産から流通までを支配する強固なビジネスモデルを築き上げ、蝦夷地交易の主導権を握るに至りました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題5:</strong> 近江商人の家訓や遺言には、商売上の具体的なノウハウだけでなく、人生哲学や倫理観が強く反映されています。その特徴的な内容を2つ以上の商家（例：西川家、中井家、外村家など）を例に挙げて説明しなさい。</p>
+        <p class="reference">(参考: 資料⑨)</p>
+        <button onclick="toggleAnswer('desc_answer5')">解答を表示</button>
+        <div id="desc_answer5" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong></p>
+            <ul>
+                <li><strong>西川甚五郎家:</strong> 「潔い口銭」を心掛け、正直な商売を諭す。状況に応じた「薄利」を肯定する柔軟性も持つ。</li>
+                <li><strong>中井源左衛門家:</strong> 「金持商人一枚起請文」に示されるように、勤勉・倹約といった努力（人事を尽くすこと）に加え、成功には「運」が必要であり、その運は「陰徳善事」によってもたらされるとする考え方。</li>
+                <li><strong>外村与左衛門家:</strong> 「心得書」において、自分本位な考えを戒め、取引相手の立場を尊重する「共存共栄」の態度を重視。「売て悔やむこと商人の極意」として、目先の損得に迷わず売り切る潔さを説く。</li>
+                <li><strong>塚本定右衛門家:</strong> 「おとくいのまうけをはかる心こそ我身の富をいたす道なれ」という遺歌に示されるように、得意先の利益や利便性を図ることが、結果として自らの利益の源泉になるという考え方（顧客第一主義）。</li>
+            </ul>
+            <p><strong>【解説】</strong> 近江商人の家訓は、単なる儲けの秘訣集ではありません。そこには、商売を通じていかに人として正しく生きるかという、高い倫理観が貫かれています。例えば、中井源左衛門は、商人の成功を個人の才覚だけでなく、人知を超えた「運」の存在と結びつけ、そのために善行を積むことの重要性を説きました。また、外村与左衛門は、目先の利益に囚われず、相手の立場を尊重する共存共栄の精神を強調しました。これらの教えは、短期的な利益追求ではなく、信用を重んじ、長期的な繁栄を目指すという、近江商人に共通する経営姿勢の根幹をなすものでした。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題6:</strong> 近江商人は、行商から始まり、やがて各地に出店を構える「店舗商い」へと発展しました。この多店舗展開を可能にした経営上の工夫には、どのようなものがあったか説明しなさい。</p>
+        <p class="reference">(参考: 資料③, ⑤, ⑦)</p>
+        <button onclick="toggleAnswer('desc_answer6')">解答を表示</button>
+        <div id="desc_answer6" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong></p>
+            <ul>
+                <li><strong>乗合商い:</strong> 複数の商人が共同出資することで、出店に伴うリスクと資金負担を軽減した。</li>
+                <li><strong>人材育成と登用:</strong> 奉公人制度を通じて、店の経営を任せられる忠実で有能な人材（支配人など）を育成した。</li>
+                <li><strong>所有と経営の分離:</strong> 主家（所有者）は近江の本宅にいて全体の経営方針や人事を掌握し、各店の日常業務は支配人（経営者）に委任するという役割分担がなされていた。</li>
+                <li><strong>遠隔地管理システム:</strong>
+                    <ul>
+                        <li><strong>会計制度:</strong> 「店卸目録」の提出を義務付け、各店の経営成績を正確に把握した。</li>
+                        <li><strong>定期的な巡回:</strong> 主家当主が自ら各店を巡回（店廻り）し、帳簿の監査や店員への訓示を行った。</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>【解説】</strong> 近江商人の多店舗展開の成功は、優れた経営システムに支えられていました。第一に、共同出資である「乗合商い」によって、出店のリスクを分散しました。第二に、店の経営を安心して任せられる人材を「奉公人制度」を通じて育成し、支配人として登用しました。これにより、主家は所有と経営を分離し、大局的な判断に専念できました。第三に、各支店を管理する仕組みとして、詳細な決算報告書である「店卸目録」の提出を義務付け、本家の当主が定期的に支店を巡回することで、遠隔地であっても経営の実態を正確に把握し、統制を維持することを可能にしたのです。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題7:</strong> 幕末から明治にかけて、近江商人は大きな社会変動に直面しました。彼らが危機を乗り越え、近代的な企業へと転換していく過程で見られた対応や判断の事例を2つ以上挙げ、その特徴を説明しなさい。</p>
+        <p class="reference">(参考: 資料⑪)</p>
+        <button onclick="toggleAnswer('desc_answer7')">解答を表示</button>
+        <div id="desc_answer7" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong></p>
+            <ul>
+                <li><strong>事例1: 伊藤忠兵衛の長州での体験</strong>
+                    <ul>
+                        <li><strong>危機:</strong> 長州戦争の混乱で下関に閉じ込められ、売掛金1,500両を回収できなくなる危機に直面。</li>
+                        <li><strong>対応:</strong> 彦島の同郷商人を頼り、回収金を近江の実家に送金。自身は戦乱の終息を待って残りも回収し、無事帰郷。危機的状況下での冷静な判断力と、同郷人ネットワークの活用。</li>
+                    </ul>
+                </li>
+                <li><strong>事例2: 丁子屋小林吟右衛門家の金融危機</strong>
+                    <ul>
+                        <li><strong>危機:</strong> 取引先の本両替商「伊勢屋甚兵衛」の倒産で、14万両余りの巨額の損失を被る。</li>
+                        <li><strong>対応:</strong> 取り付け騒ぎを予測し、支払準備を万全に整える。店員に対し「後始末をきちんとすれば世間の信用を回復できる」と諭し、パニックを起こさず冷静に対処。信用を第一とする姿勢。</li>
+                    </ul>
+                </li>
+                <li><strong>事例3: 奥井万吉の将来予測</strong>
+                    <ul>
+                        <li><strong>変化:</strong> 自身の千里を歩く行商体験を語りつつも、子孫には汽船・鉄道・電信といった西洋の技術の重要性を説く。</li>
+                        <li><strong>特徴:</strong> 過去の成功体験に固執せず、時代の変化を的確に捉え、未来を見据えて事業のあり方を考える進取の気性。</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>【解説】</strong> 幕末維新の動乱期は、多くの商家が没落した危機的な時代でした。しかし、近江商人の多くはこれを乗り越え、近代的な企業へと発展しました。その背景には、彼らの優れた危機対応能力と先見性がありました。伊藤忠兵衛は、戦争という不測の事態に冷静に対処し、同郷のネットワークを駆使して危機を脱しました。丁子屋は、金融危機に際して目先の損失よりも信用の維持を最優先し、組織の動揺を抑えました。また、奥井万吉の言葉からは、過去の成功体験に安住せず、常に未来の変化を見据えて事業を革新しようとする、彼らの柔軟で進取的な精神を読み取ることができます。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題8:</strong> 近江商人の活動は、出身地である近江国の地理的条件とどのような関係があったと考えられますか。その地理的な利点を説明しなさい。</p>
+        <p class="reference">(参考: 授業の導入部分、および資料全体から推察)</p>
+        <button onclick="toggleAnswer('desc_answer8')">解答を表示</button>
+        <div id="desc_answer8" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong></p>
+            <ul>
+                <li><strong>交通の要衝:</strong>
+                    <ul>
+                        <li>陸上交通: 日本の主要街道である東海道と中山道が通り、東国と西国を結ぶ結節点であった。</li>
+                        <li>水上交通: 日本海側の物資を京・大坂へ運ぶ中継点として、琵琶湖の湖上水運が重要な役割を果たしていた。</li>
+                    </ul>
+                </li>
+                <li><strong>経済的・文化的中心地への近接:</strong>
+                    <ul>
+                        <li>当時の日本の経済・文化の中心であった京都、および「天下の台所」と呼ばれた大坂に近かったため、最新の商品情報や経済動向をいち早く入手できた。</li>
+                    </ul>
+                </li>
+                <li><strong>地理的条件の影響:</strong>
+                    <ul>
+                        <li>これらの条件により、近江は全国のヒト・モノ・情報が集まる場所となった。近江の人々は、自然と全国的な視野を持ち、商業活動に従事する機会に恵まれていたと考えられる。</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>【解説】</strong> 近江国（現在の滋賀県）が多くの優れた商人を生み出した背景には、その地理的条件が大きく影響しています。近江は、江戸と京都を結ぶ東海道と中山道が通過する陸上交通の要衝でした。さらに、日本海側の敦賀港に陸揚げされた物資を、琵琶湖の舟運を利用して大津へ運び、そこから京・大坂へ供給するという、西日本の物流の大動脈の役割も担っていました。このように、全国の物資と情報が集中する地理的利点が、近江の人々に広い視野と商才を育む土壌を提供したと考えられます。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題9:</strong> 「八幡の大店、日野の千両店」という言葉があります。これは八幡商人と日野商人の経営スタイルの違いを表したものですが、具体的にどのように違うのか説明しなさい。</p>
+        <p class="reference">(参考: 資料④)</p>
+        <button onclick="toggleAnswer('desc_answer9')">解答を表示</button>
+        <div id="desc_answer9" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong></p>
+            <ul>
+                <li><strong>八幡商人（八幡の大店）:</strong>
+                    <ul>
+                        <li>江戸や大坂などの大消費地に、大規模で豪華な店舗（大店）を構える経営スタイル。</li>
+                        <li>呉服などを主力商品とし、資本力を背景にした商売を展開した。西川甚五郎家などが代表。</li>
+                    </ul>
+                </li>
+                <li><strong>日野商人（日野の千両店）:</strong>
+                    <ul>
+                        <li>行商から始め、利益（千両）が出ると、それを元手に東北・北関東などを中心に比較的小規模な店を多数開設していく経営スタイル。</li>
+                        <li>堅実な多店舗展開（チェーン展開）の原型ともいえる。中井源左衛門家などが代表。</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>【解説】</strong> この言葉は、同じ近江商人でも出身地によって異なる経営戦略をとっていたことを示しています。「八幡の大店」とは、八幡商人が江戸などの大都市に資本を集中させて大規模な店舗を構え、ブランド力で勝負したことを表します。一方、「日野の千両店」とは、日野商人が行商で稼いだ資金を元手に、地方都市に堅実に多くの支店を築いていく、地域に根差した多店舗展開を得意としたことを表しています。両者は対照的ながら、それぞれが時代や地域のニーズに適した方法で成功を収めました。</p>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <p><strong>問題10:</strong> あなたが近江商人の一人だとしたら、「三方よし」の精神を現代のビジネスにおいてどのように実践しますか。具体的な業種や状況を想定し、自由に論じなさい。</p>
+        <p class="reference">(参考: 授業全体の理解を問う応用問題)</p>
+        <button onclick="toggleAnswer('desc_answer10')">解答を表示</button>
+        <div id="desc_answer10" class="answer" style="display:none;">
+            <p><strong>【解答のポイント】</strong>（これは一例です）</p>
+            <ul>
+                <li><strong>想定する業種:</strong> 例えば、IT企業（アプリ開発）、アパレル、食品製造業など。</li>
+                <li><strong>「売り手よし」の実践:</strong>
+                    <ul>
+                        <li>従業員が働きやすい環境（適正な労働時間、公正な評価、福利厚生）を整える。</li>
+                        <li>技術開発や効率化によって、適正な利益を確保する。</li>
+                    </ul>
+                </li>
+                <li><strong>「買い手よし」の実践:</strong>
+                    <ul>
+                        <li>高品質で安全な製品・サービスを、適正な価格で提供する。</li>
+                        <li>顧客の意見を真摯に聞き、製品改善やサポート体制の充実に活かす。</li>
+                        <li>誇大広告などをせず、誠実な情報提供を行う。</li>
+                    </ul>
+                </li>
+                <li><strong>「世間よし」の実践:</strong>
+                    <ul>
+                        <li><strong>環境への配慮:</strong> サプライチェーン全体で環境負荷の少ない材料や製法を採用する（例：リサイクル素材の利用、省エネな製造工程）。</li>
+                        <li><strong>地域社会への貢献:</strong> 地域のイベントへの協賛や、地域のNPOとの連携、災害時の支援活動など。</li>
+                        <li><strong>法令遵守と倫理:</strong> 税金をきちんと納め、コンプライアンスを徹底する。</li>
+                        <li><strong>持続可能な社会への貢献:</strong> 事業活動そのものが社会問題の解決に繋がるようなビジネスモデルを目指す（例：フードロス削減に貢献する食品販売、教育格差を是正するITサービス）。</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>【解説】</strong> 「三方よし」は、現代のCSR（企業の社会的責任）やSDGs（持続可能な開発目標）、ESG（環境・社会・ガバナンス）経営に直結する考え方です。この問いに答えるには、単に利益を追求するだけでなく、自社の事業が従業員、顧客、そして社会全体にどのような影響を与えるかを多角的に考え、具体的な行動計画として示すことが求められます。例えば、アパレル企業であれば、従業員の労働環境を整え（売り手よし）、高品質な服を適正価格で提供し（買い手よし）、さらに製造過程で環境負荷の少ない素材を使ったり、売れ残り品を寄付したりする（世間よし）といった実践が考えられます。</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswer(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
